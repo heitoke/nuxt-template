@@ -14,9 +14,6 @@
 
 const { data: blogs } = useFetch('/api/blogs');
 
-console.log(blogs);
-
-
 useSeoMeta({
     title: 'Blogs'
 });

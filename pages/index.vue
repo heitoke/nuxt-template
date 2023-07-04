@@ -9,6 +9,8 @@
     <NuxtLink to="/about">About</NuxtLink>
     |
     <NuxtLink to="/blogs">Blogs</NuxtLink>
+    |
+    <NuxtLink to="/users">Users</NuxtLink>
 </template>
 
 <script lang="ts" setup>

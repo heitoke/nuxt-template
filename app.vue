@@ -10,17 +10,14 @@
 
 const titleSite = 'Nuxt Test';
 
-const nameLayout = ref('default');
-
 useHead({
-    // titleTemplate: (titleChunk) => {
-    //     return titleChunk ? `${titleChunk} | ${titleSite}` : titleSite;
-    // }
-    titleTemplate: `%s | ${titleSite}`
+    titleTemplate: `%s | ${titleSite}`,
+    link: [
+        {
+            rel: 'icon',
+            href: '/favicon.ico'
+        }
+    ]
 });
-
-function setLayout(name: string) {
-    setPageLayout(name);
-}
 
 </script>

@@ -1,5 +1,7 @@
 <template>
     <div>
+        <Link rel="icon" href="/favicon.ico"/>
+        
         A *default* layout
         <div class="page">
             <slot />

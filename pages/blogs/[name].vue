@@ -21,6 +21,15 @@ useSeoMeta({
     twitterImage: image
 });
 
+useHead({
+    link: [
+        {
+            rel: 'icon',
+            href: image
+        }
+    ]
+});
+
 </script>
 
 <style lang="scss" scoped>
