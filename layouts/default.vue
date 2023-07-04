@@ -1,7 +1,9 @@
 <template>
     <div>
         A *default* layout
-        <slot />
+        <div class="page">
+            <slot />
+        </div>
     </div>
 </template>
 

@@ -3,6 +3,12 @@
     {{ testStore.message }} - {{ testStore.upper }}
 
     <button @click="testStore.setMessage('geeg')">Click</button>
+
+    <br>
+
+    <NuxtLink to="/about">About</NuxtLink>
+    |
+    <NuxtLink to="/blogs">Blogs</NuxtLink>
 </template>
 
 <script lang="ts" setup>

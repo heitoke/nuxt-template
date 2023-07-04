@@ -3,13 +3,6 @@
         <NuxtLayout>
             <NuxtPage/>
         </NuxtLayout>
-        <!-- <NuxtWelcome /> -->
-
-        {{ nameLayout }}
-
-        <input type="text" v-model="nameLayout">
-
-        <button @click="setLayout(nameLayout)">Change layout</button>
     </div>
 </template>
 

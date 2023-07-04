@@ -12,7 +12,8 @@
     "@nuxt/devtools": "latest",
     "@pinia/nuxt": "^0.4.11",
     "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "nuxt": "^3.6.1",
+    "sass": "^1.63.6"
   },
   "dependencies": {
     "pinia": "^2.1.4"
